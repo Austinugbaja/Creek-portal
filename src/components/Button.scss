@@ -1,0 +1,11 @@
+$secondary-button: #fff;
+
+.buttonstyle {
+    width: 80px;
+    height: 30px;
+    padding: .1rem .5rem;
+    border: 1px solid $secondary-button;
+    border-radius: 20px;
+    color: white;
+    background-color: #0269BA;
+}
