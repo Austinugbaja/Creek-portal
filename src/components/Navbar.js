@@ -4,14 +4,16 @@ import Button from './Button';
 import './Navbar.scss';
 import Logo from './creekimagelogo.png';
 import Header from './Header';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars} from '@fortawesome/free-solid-svg-icons';
 
 const Navbar = () => {
     return (
             <Header className="navbar navbar-expand-lg navbar-light menu fixed-top d-flex align-items-center">
   <div className="container d-flex align-items-center justify-content-between">
-    <Link className="navbar-brand" to="/"><img src={Logo} alt="TechCreek Logo" /></Link>
+    <Link className="navbar-brand" to="/"><img src={Logo} alt="TechCreek Logo"/></Link>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span className="navbar-toggler-icon"></span>
+     <FontAwesomeIcon icon={faBars} style={{ color: "#fff"}} />
     </button>
     <div className="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
       <ul className="navbar-nav">

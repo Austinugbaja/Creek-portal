@@ -3,7 +3,7 @@ import './Button.scss';
 
 const Button = () => {
     return (
-        <div className="buttonstyle">LOGIN</div>
+        <button className="buttonstyle">LOGIN</button>
     )
 }
 

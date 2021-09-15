@@ -1,5 +1,5 @@
 .menu {
-    background-color: #0269BA;
+    background-color: transparent;
 }
 
 .menu li {
@@ -10,4 +10,24 @@
     color: #fff !important;
     text-transform: capitalize;
     font-weight: 400;
+    border: .21rem solid transparent;
+}
+
+.navbar-brand img {
+    width: 4rem;
+}
+
+
+.nav-link:focus {
+    border: .21rem solid #E8F5FB;
+    background-color: #E8F5FB;
+    color: #0269BA !important;
+    border-radius: 1rem;
+}
+
+.nav-link:hover {
+    border: .21rem solid #E8F5FB;
+    background-color: #E8F5FB;
+    color: #0269BA !important;
+    border-radius: 1rem;
 }

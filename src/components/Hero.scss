@@ -1,5 +1,6 @@
 .hero-section {
-    background-image: url('./imagebgtwo.png'), url('./imagebgone.jpg');
+    background-image: url('./techbgimage.jpg');
+    max-height: 100vh;
     background-color: #fff;
     padding: 10rem 0 0;
     width: 100%;
@@ -8,7 +9,6 @@
 
 .display-2 {
     margin-bottom: 1rem;
-    text-transform: capitalize;
     font-family: 'Archivo', sans-serif;
     font-size: 80px;
     font-style: normal;
@@ -19,12 +19,33 @@
 }
 
 .display-2--desc {
-    margin-top: 3.2rem;
+    margin-top: 2rem;
     font-family: 'DM', sans-serif;
     font-size: 24px;
     font-style: normal;
     font-weight: normal;
     color:#242424;
     line-height: 31px;
-    // letter-spacing: -0.02em;
+}
+
+.hero-image {
+    width: 20rem;
+}
+
+.first-hero-img {
+    position: relative;
+    top: 5rem;
+    right: 6rem;
+}
+
+.second-hero-img {
+    position: relative;
+    bottom: 2rem;
+    right: 2rem;
+}
+
+.third-hero-img {
+    position: relative;
+    // bottom: 2rem;
+    left: 4rem;
 }

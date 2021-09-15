@@ -4,7 +4,7 @@ import './ButtonTwo.scss';
 const ButtonTwo = () => {
     return (
         <div>
-            <div className="buttontwostyle text-center">join the creek</div>
+            <button className="buttontwostyle text-center">join the creek</button>
         </div>
     )
 }

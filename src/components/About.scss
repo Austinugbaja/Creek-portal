@@ -1,0 +1,72 @@
+.about-section {
+    padding: 8rem 0;
+}
+
+.about-heading-one {
+    font-family: 'Archivo' sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.5rem;
+    letter-spacing: -0.02em;
+    line-height: 2.75rem;
+    color: #151515;
+}
+
+.about-heading-two {
+    font-family: 'DM Sans' sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5rem;
+    line-height: 1.93rem;
+    color: #303030;
+}
+
+.about-course {
+    font-family: 'DM Sans' sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: .87rem;
+    width: 6.87rem;
+    height: 2rem;
+    padding: .4rem;
+    background-color: #F8AD03;
+    border-radius: 3.12rem;
+    position: relative;
+    left: .7rem;
+    bottom: .4rem;
+    color: #242424;
+}
+
+.about-desc {
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 140%;
+    color: #303030;
+}
+.about-courses {
+    width: 6.87rem;
+    height: 2rem;
+    border-radius: 3.12rem;
+    background-color: #F8AD03;
+}
+
+
+.learn-button {
+    font-size: 1rem;
+    font-weight: bold;
+    font-style: normal;
+    font-family: 'DM Sans';
+    text-transform: uppercase;
+    width: 12.5rem;
+    height: 3rem;
+    padding: .5rem 1rem;
+    border: 2px solid #F8AD03;
+    border-radius: 0.5rem;
+    color: #F8AD03;
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 2.5rem;
+}
