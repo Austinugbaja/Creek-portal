@@ -25,10 +25,10 @@ const Hero = () => {
                     <div className="col-md-2 intros">
                     </div>
                     <div className="col-md-5 intros hero-img text-end">
-                    <img src={HeroImageThree} alt="hero image" className="image hero-img first-hero-img" />
-                        <img src={HeroImageOne} alt="hero image" className="image hero-img second-hero-img" />
-                        <img src={HeroImageTwo} alt="hero image" className="image hero-img third-hero-img" />
-                        <img src={HeroImage} alt="hero image" className="image hero-image" />
+                    <img src={HeroImageThree} alt="hero" className="image hero-img first-hero-img" />
+                        <img src={HeroImageOne} alt="hero" className="image hero-img second-hero-img" />
+                        <img src={HeroImageTwo} alt="hero" className="image hero-img third-hero-img" />
+                        <img src={HeroImage} alt="hero" className="image hero-image" />
                     </div>
                 </div>
             </div>
